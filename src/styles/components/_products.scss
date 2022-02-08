@@ -1,0 +1,58 @@
+.section__header {
+    text-align: center;
+}
+
+.products {
+   display: block;
+   margin-top: 140px
+}
+.txt-secundaries {
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #2c2c2c;
+}
+.title-secundary {
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.products-lista {
+    display: flex;
+    padding: 0 35px 0 35px;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.products-items {
+    list-style: none;
+}
+
+.prod-link {
+    display: block;
+    color: #1c1c1c;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+    &:hover {
+        color: #564aeb;
+    }  
+}
+
+.prod-img {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.ofertas {
+    margin: 140px auto 0;
+    width: 600px;
+}
+

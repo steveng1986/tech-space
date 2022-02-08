@@ -1,0 +1,40 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 20px auto 20px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: 400;
+}
+.nav-menu-items {
+    padding: 0 20px;
+}
+.contenedor-nav-buscador {
+    display: flex;
+    width: 300px;
+    height: 46px;
+    padding-right: 10px;
+    background: #f8f8f8;
+}
+.nav-buscar {
+    outline: none;
+    color: #2c2c2c;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 0;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    background: #f8f8f8;
+    border:none
+}
+.nav-image-buscar {
+    display: block;
+    width: 20px;
+    height: auto;
+}

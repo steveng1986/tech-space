@@ -1,0 +1,90 @@
+.panel {
+    flex: 0 0 30%;
+    height: 272px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.panel_container-headphones {
+    background-image: url('../img/audifonos.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.panel_container-smarthpones {
+    background-image: url('../img/smartphone.webp');
+    background-size: 100%;
+}
+
+.panel_container-smartwatches {
+    background-image: url('../img/reloj.webp');
+    background-size: 100%;   
+}
+
+.panel__content {
+    display: block;
+}
+
+.tecnology-text {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.tecnology-subtitle {
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+.tecnology-subtitle_white {
+    color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+.tecnology-text-interior {
+    color: #2c2c2c;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 26px 0;
+}
+
+.text_white {
+    color: rgba(255,255,255,.7);
+}
+
+.tecnology-link {
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    margin-top: 4px;
+    line-height: 1.75;
+    text-decoration: none;
+    color: #1c1c1c;
+    margin-bottom: 5px;
+    position: relative;
+    &:hover {
+        color: #564aeb;
+    }
+    &:after {
+        content: "";
+        background-color: #564aeb;
+        width: 105px;
+        height: 2px;
+        display: block;
+        margin: 2px;
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    &_white {
+        color: #ffffff;
+        &:hover { 
+            color: rgba(255,255,255,.5);
+        }
+        &::after {
+            background-color: white; 
+        }
+    }
+}

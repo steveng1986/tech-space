@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+.footer-teach-space {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-containers {
+    list-style: none;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.footer-titles {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.4;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.footer-items {
+    font-family: 'Nunito Sans';
+    text-decoration: none;
+    margin: 10px 0;
+    
+}
+
+.footer-items-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #2c2c2c;
+    font-family: 'Nunito Sans';
+    &:hover {
+        color: #868686;
+    }
+}
+
+.footer-items-ubicacion {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 15px;
+    font-weight: 700;
+    &:hover {
+        color: #564aeb;
+    }
+    &::selection {
+        background: #564aeb;
+        color: #fff;
+    }
+    &::after {
+        content: "";
+        background-color: #564aeb;
+        display: block;
+        height: 2px;
+        width: 95px;
+        margin-top: 2px;
+    }
+}
+
+.footer-buscar {
+    outline: none;
+    width: 236px;
+    height: 46px;
+    font-size: 16px;
+    background: #f8f8f8;
+    color: #2c2c2c;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: none;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.copyright-txt {
+    font-size: 15px;
+    color: #868686;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    margin: 0;
+}
+
+.copyright-social-media-item {
+    padding: 0 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    &:hover {
+        path {
+            fill: #564aeb;
+        }
+    }
+    &::selection {
+        background: #564aeb;
+        color: #fff; 
+    }
+}

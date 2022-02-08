@@ -1,0 +1,33 @@
+.games {
+    text-align: center;
+
+    .tecnology-link {
+        position: initial;
+    }
+}
+
+.container-people-and-play {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.people-and-play {
+    position: relative;
+}
+
+.people-and-play-txt {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 40px;
+}
+
+.people-and-play-img {
+    display: block;
+    width: 100%;  
+}
+
+
+

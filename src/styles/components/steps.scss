@@ -1,0 +1,86 @@
+.container-three-steps {
+    background-color: #564aeb;
+    color: #ffffff;
+    font-family: 'Nunito Sans';
+    padding: 70px 40px;
+    }
+    
+    .three-steps-title {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .three-steps-txt {
+        width: 600px;
+        margin: 0 auto;
+        color: rgba(255,255,255,.7);
+        line-height: 1.75;
+    }
+    
+    .sub-container-steeps {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin-top: 70px;
+    }
+    
+    .three-steeps-in-action {
+        padding: 0 70px;
+        &::before {
+            border-left-color: rgba(255,255,255,.2);
+            left: 70px;
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            border-left: 2px solid #ededed;
+    }
+}
+
+.three-steeps-img {
+    // filter: invert(100%);  
+    circle {
+        fill: #ffffff;
+    }
+    path {
+        stroke: #ffffff;
+    }
+}
+
+.three-steps-subtitle {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.three-steps-example {
+    margin-top: 20px;
+    color: rgba(255,255,255,.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.button {
+    margin:  40px 0 30px;
+}
+
+.button-learn-more {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #fff;
+    border: 2px solid;
+    border-radius: 2px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    width: 132px;
+    height: 46px;
+    &:hover {
+        background-color: #fff;
+        transition: .1s ease-in-out;
+        color: #000;
+        font-weight: 700;
+        border-color: #fff;
+    }
+}
